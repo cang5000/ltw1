@@ -1,359 +1,375 @@
 {
   "Files": [
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanQuanAo.bundle.scp.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanQuanAo.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebBanQuanAo.bundle.scp.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\elegant-icons.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\elegant-icons.css",
       "PackagePath": "staticwebassets\\Icon\\elegant-icons.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\heart.png",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\heart.png",
       "PackagePath": "staticwebassets\\Icon\\heart.png"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\retweet.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\retweet.jpg",
       "PackagePath": "staticwebassets\\Icon\\retweet.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\shopping cart.png",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\Icon\\shopping cart.png",
       "PackagePath": "staticwebassets\\Icon\\shopping cart.png"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\Dam.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\Dam.jpg",
       "PackagePath": "staticwebassets\\images\\Dam.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\IRAN.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\IRAN.jpg",
       "PackagePath": "staticwebassets\\images\\IRAN.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\LogoShop.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\LogoShop.jpg",
       "PackagePath": "staticwebassets\\images\\LogoShop.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\WBA - HOME.PNG",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\WBA - HOME.PNG",
       "PackagePath": "staticwebassets\\images\\WBA - HOME.PNG"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\backgrounf.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\backgrounf.jpg",
       "PackagePath": "staticwebassets\\images\\backgrounf.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\len cao thu.PNG",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\dep.jpg",
+      "PackagePath": "staticwebassets\\images\\dep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\giay (1).jpg",
+      "PackagePath": "staticwebassets\\images\\giay (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\len cao thu.PNG",
       "PackagePath": "staticwebassets\\images\\len cao thu.PNG"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\school-uniform-polos-315x420 - Copy.jpeg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\school-uniform-polos-315x420 - Copy.jpeg",
       "PackagePath": "staticwebassets\\images\\school-uniform-polos-315x420 - Copy.jpeg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\vay.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\thatlung2.jpg",
+      "PackagePath": "staticwebassets\\images\\thatlung2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\thatlung3.jpg",
+      "PackagePath": "staticwebassets\\images\\thatlung3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\vay.jpg",
       "PackagePath": "staticwebassets\\images\\vay.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh1.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh1.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh1.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh10.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh10.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh10.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh11.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh11.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh11.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh12.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh12.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh12.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh13.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh13.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh13.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh14.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh14.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh14.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh15.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh15.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh15.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh2.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh2.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh2.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh3.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh3.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh3.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh4.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh4.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh4.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh5.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh5.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh5.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh6.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh6.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh6.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh7.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh7.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh7.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh8.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh8.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh8.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh9.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnh9.jpg",
       "PackagePath": "staticwebassets\\images\\ảnh9.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnhneen.jpg",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\images\\ảnhneen.jpg",
       "PackagePath": "staticwebassets\\images\\ảnhneen.jpg"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\C#\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

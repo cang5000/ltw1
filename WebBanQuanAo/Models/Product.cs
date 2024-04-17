@@ -3,15 +3,17 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebBanQuanAo.Models
 {
+
     public class Product
     {
         public int Id { get; set; }
         [Required, StringLength(100)]
         [DisplayName("Tên sản phẩm")]
         public string? Name { get; set; }
-        [Range(0.01, 10000.00)]
-        [DisplayName("Giá")]
-        public decimal Price { get; set; }
+		[Range(1, 10000000)]
+		[DisplayName("Giá")]
+		public decimal Price { get; set; }
+        
         [DisplayName("Mô tả")]
         public string? Description { get; set; }
         [DisplayName("Ảnh")]

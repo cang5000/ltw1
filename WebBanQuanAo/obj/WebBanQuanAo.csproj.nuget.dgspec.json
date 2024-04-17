@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj": {}
   },
   "projects": {
-    "D:\\C#\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj",
         "projectName": "WebBanQuanAo",
-        "projectPath": "D:\\C#\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj",
-        "packagesPath": "C:\\Users\\DELLL\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\ltw1\\WebBanQuanAo\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\WebBanQuanAo.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\ltw1\\WebBanQuanAo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELLL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2636,6 +2636,24 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.nav-link text-light btnMenu[b-vcf785zqtt] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.main-footer mainfooter-toolbar[b-vcf785zqtt] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Tùy chỉnh màu nền của footer */
+    z-index: 1000; /* Đảm bảo footer hiển thị trên tất cả các phần khác */
+}
 #navigation[b-vcf785zqtt] {
     width: 100%;
     height: 50px;
@@ -2655,6 +2673,9 @@ header[b-vcf785zqtt]{
     margin: 0px;
     padding:0px;
 }
+.navbar-nav[b-vcf785zqtt]{
+    display:flex;
+}
 
 a[b-vcf785zqtt] {
   color: #0077cc;
@@ -2670,6 +2691,7 @@ a[b-vcf785zqtt] {
     color: #fff;
     background-color: darkred;
     border-color: #1861ac;
+ 
 }
 
 .border-top[b-vcf785zqtt] {
@@ -2867,7 +2889,7 @@ button.accept-policy[b-vcf785zqtt] {
     position: relative;
 }
 
-    .map iframe[b-vcf785zqtt] {
+   .map iframe[b-vcf785zqtt] {
         width: 100%;
     }
 
@@ -2928,3 +2950,12 @@ button.accept-policy[b-vcf785zqtt] {
                 color: #666666;
                 line-height: 26px;
             }
+.social-list a[b-vcf785zqtt] {
+    display: inline-block; /* Đảm bảo các liên kết hiển thị như các block elements */
+    margin-right: 22px; /* Khoảng cách giữa các biểu tượng */
+    text-decoration: none; /* Loại bỏ gạch chân trên liên kết */
+}
+
+    .social-list a[b-vcf785zqtt]  {
+        font-size: 25px; /* Kích thước biểu tượng */
+    }

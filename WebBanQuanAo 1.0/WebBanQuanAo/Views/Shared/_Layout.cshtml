@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]  Web Bán Quần Áo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebBanQuanAo.styles.css" asp-append-version="true" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 ">
+            <div class="container-fluid  " id="navigation"> 
+                <a class="navbar-brand btn " id="logo" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/IRAN.jpg" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light btnMenu " asp-area="" asp-controller="Product" asp-action="Index">
+                                <ion-icon name="receipt-outline"></ion-icon> Sản phẩm
+                            </a>
+                        </li>	
+                        <li class="nav-item">
+                            <a class="nav-link text-light btnMenu " asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+                                <ion-icon name="bag"></ion-icon>
+                            </a>
+                        </li>
+                      
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+	<footer class="main-footer mainfooter-toolbar ">
+		<div class="main-footer--bottom">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+						<div class="footer-col footer-block">
+							<h4 class="footer-title">	GenZ VN</h4>
+							<div class="footer-content toggle-footer">
+								<ul>
+
+									<li class="item">
+										<a href="/pages/about-us" title="Giới thiệu">Giới thiệu</a>
+									</li>
+
+									<li class="item">
+										<a href="https://onapp.haravan.com/orderstrackingphone/shop/kenta" target="_blank" title="Kiểm tra đơn hàng">Kiểm tra đơn hàng</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/huong-dan-chon-size" title="Cách chọn size">Cách chọn size</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/lien-he" title="Thông tin liên hệ">Thông tin liên hệ</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/cau-hoi-thuong-gap" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/huong-dan-bao-quan" title="Hướng dẫn bảo quản">Hướng dẫn bảo quản</a>
+									</li>
+
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+						<div class="footer-col footer-link">
+							<h4 class="footer-title">
+								CHÍNH SÁCH
+							</h4>
+							<div class="footer-content toggle-footer">
+								<ul>
+
+									<li class="item">
+										<a href="/pages/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/khach-hang-than-thiet" title="Khách hàng thân thiết">Khách hàng thân thiết</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/chinh-sach-doi-hang" title="Chính sách đổi hàng">Chính sách đổi hàng</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/doi-tac-san-xuat" title="Đối tác sản xuất">Đối tác sản xuất</a>
+									</li>
+
+									<li class="item">
+										<a href="/pages/cong-tac-vien-kenta" title="Bán hàng liên kết (Affiliate)">Bán hàng liên kết (Affiliate)</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+						<div class="footer-col footer-block">
+							<h4 class="footer-title">
+								Kết nối với IRAN IRAQ
+							</h4>
+							<div class="footer-content">
+
+								<div class="social-list">
+
+									<a href="https://www.facebook.com/USS.ThanhDat" target="_blank" < class="bi bi-facebook"></a>
+
+
+									<a href="" target="_blank" <i class="bi bi-wechat"></i></a>
+
+
+									<a href="" target="_blank" <i class="bi bi-instagram"></i></a>
+
+
+									<a href="" target="_blank" <i <i class="bi bi-tiktok"></i></i></a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+						<div class="footer-col footer-block">
+							<h4 class="footer-title active">
+								Thông tin cửa hàng
+							</h4>
+							<div class="footer-content toggle-footer" style="display: block;">
+								<ul class="information">
+									<li>
+										<img src="//theme.hstatic.net/1000096703/1000836887/14/buildings.png?v=271"><span></span> America
+									</li>
+									<li><img src="//theme.hstatic.net/1000096703/1000836887/14/buildings.png?v=271"><span></span> Iran , Iraq</li>
+									<li><img src="//theme.hstatic.net/1000096703/1000836887/14/communications.png?v=271"><span>Hotline:</span> 113 </li>
+									<li><img src="//theme.hstatic.net/1000096703/1000836887/14/envelopes.png?v=271"><span>Mail:</span> datvyhung@gmail.com</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="main-footer--copyright">
+			<div class="container">
+				<div class="main-footer--border">
+					<p>Copyright © 2024 <a href=""> Hieu PC</a>.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+    <!-- Footer Section End -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    
+</body>
+</html>

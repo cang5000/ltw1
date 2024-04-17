@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager  
+    
+
+<ul class="MenuItems_menu selectNon ">
+    @if (SignInManager.IsSignedIn(User))
+
+    {
+        <li class="nav-item">
+            <a class="nav-link text-light btnMenu" asp-area="Identity" asp-page="/Account/Manage/Index" title="Tài khoản">
+                <ion-icon name="person-circle-outline"></ion-icon> Hello @User.Identity?.Name!
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light btnMenu" asp-area="Admin" asp-controller="Admin" asp-action="Index" title="Manage">
+                <ion-icon name="create-outline"></ion-icon> Quản lý Sản phẩm
+            </a>
+        </li>
+        <li class="nav-item btnMenu">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-light ">
+                    <ion-icon name="exit-outline"></ion-icon> Đăng xuất
+                </button>
+            </form>
+        </li>
+
+    }
+    else
+    {
+        <li class="nav-item ">
+
+            <a class="nav-link text-light btnMenu" asp-area="Identity" asp-page="/Account/Register">
+                <ion-icon name="person-add-outline"></ion-icon> Tạo tài khoản
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light btnMenu" asp-area="Identity" asp-page="/Account/Login">
+                <ion-icon name="enter-outline"></ion-icon> Đăng nhập
+            </a>
+        </li>
+    }
+</ul>

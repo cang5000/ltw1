@@ -5,6 +5,7 @@ using System.Diagnostics;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore.Design;
 using WebBanQuanAo.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanQuanAo.Controllers
 {
@@ -15,10 +16,9 @@ namespace WebBanQuanAo.Controllers
         private readonly ICategoryRepository _categoryRepository;
 
         
-        
 
-        
-       
+
+
         public ProductController(IProductRepository productRepository, ICategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
@@ -30,6 +30,8 @@ namespace WebBanQuanAo.Controllers
             var products = await _productRepository.GetAllAsync();
             return View(products);
         }
+
+        
 
         public IActionResult Privacy()
         {

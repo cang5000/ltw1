@@ -217,6 +217,11 @@
             display: block;
         }
 
+.category-link {
+	border: none;
+	background-color: transparent;
+}
+
 .categories__slider .col-lg-3 {
     max-width: 100%;
 }

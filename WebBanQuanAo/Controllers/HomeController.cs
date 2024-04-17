@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using WebBanQuanAo.Data;
 using WebBanQuanAo.Models;
+using WebBanQuanAo.ViewModels;
 
 
 namespace WebBanQuanAo.Controllers
@@ -21,8 +22,13 @@ namespace WebBanQuanAo.Controllers
 
         public IActionResult Index()
         {
-            var products = _context.Products.ToList(); // Lấy danh sách sản phẩm từ cơ sở dữ liệu
-            return View(products); // Trả về view và truyền danh sách sản phẩm
+            var viewModel = new ProductCategoryViewModel
+            {
+                Products = _context.Products.ToList(),
+                Categories = _context.Categories.ToList()
+            };
+
+            return View(viewModel);
         }
 
         public IActionResult Find(string timKiem)
@@ -41,6 +47,23 @@ namespace WebBanQuanAo.Controllers
             return View(allProducts);
             
         }
+
+        public IActionResult ProductsByCategory(int categoryId)
+        {
+            var products = _context.Products
+                                    .Where(p => p.CategoryId == categoryId)
+                                    .ToList();
+
+            var viewModel = new ProductCategoryViewModel
+            {
+                Products = products,
+                // Đảm bảo rằng bạn đã thiết lập Categories trong ViewModel nếu cần thiết
+            };
+
+            return PartialView("_Products", viewModel);
+        }
+
+
 
         public IActionResult Privacy()
         {

@@ -2926,3 +2926,13 @@ button.accept-policy[b-vcf785zqtt] {
                 color: #666666;
                 line-height: 26px;
             }
+/* _content/WebBanQuanAo/Views/ShoppingCart/Index.cshtml.rz.scp.css */
+
+.product-image[b-3mkgmmavmc] {
+    width: 50%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease; /* (Tuỳ chọn) - Thêm hiệu ứng khi hover hoặc thay đổi kích thước */
+    
+}
+

@@ -1,29 +1,154 @@
-﻿@model ShoppingCart
+﻿<!DOCTYPE html>
+<html lang="zxx">
 
-<h2>Your Cart</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web bán quần áo cực mạnh</title>
 
-<table class="table">
-    <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Price</th>
-        <th>Total</th>
-        <th>Action</th>
-    </tr>
-    @foreach (var item in Model.Items)
-    {
-        <tr>
-            <td>@item.Name</td>
-            <td>@item.Quantity</td>
-            <td>@item.Price</td>
-            <td>@(item.Price * item.Quantity)</td>
-            <td>
-                <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
-            </td>
-        </tr>
-    }
-</table>
-<div>
-    <a asp-controller="Home" asp-action="Index" type="submit" class="btnProduct">Buy</a>
-    <a asp-action="Checkout" type="submit" class="btnProduct">Order</a>
-</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        .header {
+            background-color: #f5f5f5;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .order-details {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .total,
+        .shipping,
+        .total-payment {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>GIỎ HÀNG</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">HÌNH ẢNH</th>
+                            <th scope="col">SẢN PHẨM</th>
+                            <th scope="col">ĐƠN GIÁ</th>
+                            <th scope="col">SỐ LƯỢNG</th>
+                            <th scope="col">TỔNG TIỀN</th>
+                            <th scope="col">HÀNH ĐỘNG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tbody>
+                            @foreach (var item in Model.Items)
+                            {
+                            <tr>
+                                <td>
+                                    <img src="@Url.Content(item.ImageUrl)" class="product-image" />
+                                </td>
+                                <td>@item.Name</td>
+                                <td class="price">$@item.Price</td>
+                                <td>
+                                    <div class="input-group">
+                                        <input type="number" id="quantity-@item.ProductId" class="form-control quantity" name="quantity" min="1" max="100" value="@item.Quantity" data-product-id="@item.ProductId">
+                                    </div>
+                                </td>
+                                <td class="total-price">$@(item.Price * item.Quantity)</td>
+                                <td>
+                                    <a href="#" class="btn btn-danger">Xóa</a>
+                                </td>
+                            </tr>
+                            }
+
+                    </tbody>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-4">
+                <div class="order-details">
+                    <h2>Chi tiết đơn hàng</h2>
+                    <div class="total">
+                        <h3>Tổng tiền</h3>
+                        <span id="total-amount">$0.00</span>
+                    </div>
+                    <div class="shipping">
+                        <h3>Phí vận chuyển</h3>
+                        <span>$20.00</span>
+                    </div>
+                    <div class="total-payment">
+                        <h3>Tổng thanh toán</h3>
+                        <span id="total-payment-amount">$20.00</span>
+                    </div>
+                    <form asp-action="ProcessOrder" asp-controller="ShoppingCart" method="post">
+                        <button type="submit" class="btn btn-primary btn-block">Mua hàng</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/popper.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Tính tổng tiền
+        function calculateTotal() {
+            let total = 0;
+            $(".total-price").each(function () {
+                total += parseFloat($(this).text().replace("$", ""));
+            });
+            return total;
+        }
+
+        // Cập nhật tổng tiền và tổng thanh toán
+        function updateTotals() {
+            const totalAmount = calculateTotal();
+            const shippingFee = 20.00;
+            const totalPayment = totalAmount + shippingFee;
+
+            $("#total-amount").text("$" + totalAmount.toFixed(2));
+            $("#total-payment-amount").text("$" + totalPayment.toFixed(2));
+        }
+
+        // Sự kiện khi thay đổi số lượng
+        $(".quantity").on("change", function () {
+            const quantity = parseInt($(this).val());
+            const price = parseFloat($(this).closest("tr").find(".price").text().replace("$", ""));
+            const total = quantity * price;
+
+            $(this).closest("tr").find(".total-price").text("$" + total.toFixed(2));
+            updateTotals();
+        });
+
+        // Cập nhật tổng tiền khi trang được tải
+        $(document).ready(function () {
+            updateTotals();
+        });
+
+
+    </script>
+</body>
+
+</html>

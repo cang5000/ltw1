@@ -9,7 +9,7 @@ namespace WebBanQuanAo.Models
         [Required, StringLength(100)]
         [DisplayName("Tên sản phẩm")]
         public string? Name { get; set; }
-        [Range(0.01, 10000.00)]
+        [Range(1, 10000)]
         [DisplayName("Giá")]
         public decimal Price { get; set; }
         [DisplayName("Mô tả")]

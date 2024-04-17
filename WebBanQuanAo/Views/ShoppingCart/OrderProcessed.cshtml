@@ -1,0 +1,22 @@
+﻿@model WebBanQuanAo.Models.Order
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Processed</title>
+</head>
+<body>
+    <h1>Order Processed Successfully</h1>
+    <p>Your order has been successfully processed. Thank you for shopping with us!</p>
+    <h2>Order Details</h2>
+    <ul>
+        <li>Order ID: @Model.Id</li>
+        <li>Order Date: @Model.OrderDate</li>
+        <li>Total Price: $@Model.TotalPrice</li>
+        <!-- Add more details as needed -->
+    </ul>
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>

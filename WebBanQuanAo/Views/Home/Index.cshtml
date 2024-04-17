@@ -1,6 +1,11 @@
-﻿@model IEnumerable<Product>
+﻿@model WebBanQuanAo.ViewModels.ProductCategoryViewModel
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
+
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +13,16 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+    <title>Web bán quần áo cực mạnh</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Import Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Import thư viện isotope.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -148,24 +158,31 @@
     <!-- Featured Section Begin -->
     <section class="featured spad">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Sản phẩm nổi bật</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <h2>Sản phẩm nổi bật</h2>
+                        </div>
+                        <div class="featured__controls">
+                            <ul>
+                                <!-- Hiển thị danh sách category -->
+                                @foreach (var category in Model.Categories)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("ProductsByCategory", "Home", new { categoryId = category.Id })">@category.Name</a>
+                                    </li>
+                                }
+
+                            </ul>
+                        </div>
+
+
                     </div>
-                    <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*">Tất cả</li>
-                            <li data-filter=".oranges">Quần</li>
-                            <li data-filter=".fresh-meat">Áo</li>
-                            <li data-filter=".vegetables">Giày</li>
-                            <li data-filter=".fastfood">Phụ Kiện</li>
-                        </ul>
-                    </div>
-                </div>
+                </div> 
             </div>
             <div class="row featured__filter">
-                @foreach (var product in Model)
+                @foreach (var product in Model.Products)
                 {
                     <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                         <div class="featured__item">
@@ -189,8 +206,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 }
             </div>
         </div>
@@ -348,6 +363,23 @@
             });
         });
 
+      
+        
+            $(document).ready(function () {
+                $(".category-link").click(function (e) {
+                    e.preventDefault();
+                    var categoryId = $(this).data("category-id");
+                    $.ajax({
+                        url: "/Home/ProductsByCategory",
+                        type: "GET",
+                        data: { categoryId: categoryId },
+                        success: function (data) {
+                            $("#products").html(data);
+                        }
+                    });
+                });
+            });
+    
 
 
 

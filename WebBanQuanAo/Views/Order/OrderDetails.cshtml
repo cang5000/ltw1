@@ -1,0 +1,44 @@
+﻿@model WebBanQuanAo.Models.Order
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Details</h1>
+        <p><strong>Order ID:</strong> @Model.Id</p>
+        <p><strong>Order Date:</strong> @Model.OrderDate</p>
+        <p><strong>Total Price:</strong> $@Model.TotalPrice</p>
+
+        <h2>Order Items</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@detail.Product.Name</td>
+                        <td>@detail.Quantity</td>
+                        <td>$@detail.Price</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,101 +1,142 @@
-﻿using WebBanQuanAo .Data;
-using WebBanQuanAo.Extensions;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 using WebBanQuanAo.Models;
 using WebBanQuanAo.Repository;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Xml;
+public static class SessionExtensions
+{
+    public static T Get<T>(this ISession session, string key)
+    {
+        var value = session.GetString(key);
+        return value == null ? default(T) : JsonConvert.DeserializeObject<T>(value);
+    }
 
+    public static void Set<T>(this ISession session, string key, T value)
+    {
+        session.SetString(key, JsonConvert.SerializeObject(value));
+    }
 
+}
 namespace WebBanQuanAo.Controllers
 {
-
-    [Authorize]
     public class ShoppingCartController : Controller
     {
         private readonly IProductRepository _productRepository;
-        private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
-        public ShoppingCartController(ApplicationDbContext context, UserManager<IdentityUser> userManager, IProductRepository productRepository)
+
+        public ShoppingCartController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
-            _context = context;
-            _userManager = userManager;
-        }
-        public async Task<IActionResult> AddToCart(int productID, int quantity)
-        {
-            var product = await GetProductFromDatabase(productID);
-
-            var cartItem = new CartItem
-            {
-                ProductId = productID,
-                Name = product.Name,
-                Price = product.Price,
-                Quantity = quantity
-            };
-
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
-            cart.AddItem(cartItem);
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
-            return RedirectToAction("Index");
         }
 
         public IActionResult Index()
         {
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            var cart = HttpContext.Session.Get<ShoppingCart>("Cart") ?? new ShoppingCart();
             return View(cart);
         }
 
-        private async Task<Product> GetProductFromDatabase(int productId)
+        public async Task<IActionResult> AddToCart(int productId, int quantity)
         {
             var product = await _productRepository.GetByIdAsync(productId);
-            return product;
+
+            var cart = HttpContext.Session.Get<ShoppingCart>("Cart") ?? new ShoppingCart();
+            cart.AddItem(product, quantity);
+            HttpContext.Session.Set("Cart", cart);
+
+            return RedirectToAction("Index");
         }
 
         public IActionResult RemoveFromCart(int productId)
         {
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
-            if (cart is not null)
+            var cart = HttpContext.Session.Get<ShoppingCart>("Cart");
+            if (cart != null)
             {
                 cart.RemoveItem(productId);
-                HttpContext.Session.SetObjectAsJson("Cart", cart);
+                HttpContext.Session.Set("Cart", cart);
             }
             return RedirectToAction("Index");
         }
 
         public IActionResult Checkout()
         {
-            return View(new Order());
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Checkout(Order order)
-        {
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
-            if (cart == null || !cart.Items.Any())
+            var cart = HttpContext.Session.Get<ShoppingCart>("Cart");
+            if (cart == null || cart.Items.Count == 0)
             {
                 return RedirectToAction("Index");
             }
-            var user = await _userManager.GetUserAsync(User);
-            order.UserId = user.Id;
-            order.OrderDate = DateTime.UtcNow;
-            order.TotalPrice = cart.Items.Sum(i => i.Price * i.Quantity);
-            order.OrderDetails = cart.Items.Select(i => new OrderDetail
+            var totalPrice = cart.Items.Sum(item => item.Price * item.Quantity); // Tính toán tổng giá tiền của giỏ hàng
+            var order = new Order
             {
-                ProductId = i.ProductId,
-                Quantity = i.Quantity,
-                Price = i.Price,
-            }).ToList();
-
-            _context.Orders.Add(order);
-            await _context.SaveChangesAsync();
-
-            HttpContext.Session.Remove("Cart");
-            return View("OrderCompleted", order.Id);
+                OrderDate = DateTime.UtcNow,
+                TotalPrice = totalPrice, // Gán giá trị cho TotalPrice của đơn hàng
+                OrderDetails = cart.Items.Select(item => new OrderDetail
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity,
+                    Price = item.Price
+                }).ToList()
+            };
+            return View(order);
         }
+
+        public IActionResult ProcessOrder()
+        {
+            // Lấy thông tin đơn hàng từ Session hoặc từ cơ sở dữ liệu
+            var cart = HttpContext.Session.Get<ShoppingCart>("Cart");
+
+            // Kiểm tra xem giỏ hàng có sản phẩm không
+            if (cart == null || cart.Items.Count == 0)
+            {
+                // Nếu không có sản phẩm trong giỏ hàng, chuyển hướng người dùng đến trang giỏ hàng
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+
+            try
+            {
+                // Xử lý lưu đơn hàng vào cơ sở dữ liệu
+                // Ví dụ: bạn có thể sử dụng repository để lưu đơn hàng vào cơ sở dữ liệu
+                // orderRepository.SaveOrder(cart.ToOrder());
+
+                // Sau khi lưu đơn hàng thành công, xóa giỏ hàng khỏi Session
+                HttpContext.Session.Remove("Cart");
+
+                // Trả về view OrderProcessed.cshtml với model là đơn hàng đã được xử lý
+                return View("OrderProcessed", cart.ToOrder());
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ (nếu cần)
+                // Ví dụ: ghi log, hiển thị thông báo lỗi, ...
+
+                // Chuyển hướng người dùng đến trang thông báo lỗi
+                return RedirectToAction("Error");
+            }
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Checkout(Order order)
+        {
+            // Xử lý lưu đơn hàng vào cơ sở dữ liệu
+            // Sau đó, chuyển hướng sang trang thông báo đặt hàng thành công hoặc thông tin đơn hàng
+            return RedirectToAction("OrderDetails", new { id = order.Id });
+        }
+
+        public IActionResult OrderDetails(int id)
+        {
+            // Lấy thông tin đơn hàng từ cơ sở dữ liệu dựa trên id
+            var order = new Order(); // Thay thế dòng này bằng logic lấy thông tin đơn hàng từ cơ sở dữ liệu
+            return View(order);
+        }
+
+        public IActionResult Error()
+        {
+            // Xử lý lỗi và hiển thị view hoặc thông báo lỗi tùy thuộc vào yêu cầu của bạn
+            return View();
+        }
+
     }
 }
-

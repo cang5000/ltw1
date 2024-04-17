@@ -1805,3 +1805,4 @@ D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\refint\WebBanQuanAo.dll
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.pdb
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.genruntimeconfig.cache
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\ref\WebBanQuanAo.dll
+D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\scopedcss\Views\ShoppingCart\Index.cshtml.rz.scp.css

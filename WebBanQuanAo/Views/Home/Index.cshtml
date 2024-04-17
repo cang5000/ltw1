@@ -1,0 +1,359 @@
+﻿@model IEnumerable<Product>
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ogani | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+ 
+
+
+    <!-- Header Section End -->
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>HOT SEARCH</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Áo Khoác</a></li>
+                            <li><a href="#">Áo Thun</a></li>
+                            <li><a href="#">Áo Sơ Mi</a></li>
+                            <li><a href="#">Áo Polo</a></li>
+                            <li><a href="#">Quần Dài</a></li>
+                            <li><a href="#">Quần Jean</a></li>
+                            <li><a href="#">Quần Short</a></li>
+                            <li><a href="#">Váy & Đầm</a></li>
+                            <li><a href="#">Đồ Thể Thao</a></li>
+                            <li><a href="#">Đồ Ngủ</a></li>
+                            <li><a href="#">Phụ Kiện</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form asp-controller="Home" asp-action="Find" method="get">
+                                <div class="hero__search__categories">
+                                    Tìm Kiếm
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" name="timKiem" placeholder="Bạn Cần Gì?">
+                                <button type="submit"> <i class="bi bi-search"></i></button>
+                                
+
+                                
+                            </form>
+                            
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+113</h5>
+                                <span>support 24/7 time</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__item head-img" data-setbg="images/ảnh15.jpg">
+                        
+                        <div class="hero__text">
+                            <span>FRUIT FRESH</span>
+                            <h2>Fasion GenZ <br />100% Real</h2>
+                            <p>Delivery Available
+                                (giao hàng miễn phí)
+                                <a href="#" class="primary-btn">SHOP NOW</a>s
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+  
+    <!-- Categories Section Begin -->
+ @*    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" />
+                        
+                        
+                            <img src="~/images/ảnh15.jpg" />
+                        
+                            <h5><a href="#">Fresh Fruit</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                            <h5><a href="#">Dried Fruit</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                            <h5><a href="#">Vegetables</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> *@
+    <!-- Categories Section End -->
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Sản phẩm nổi bật</h2>
+                    </div>
+                    <div class="featured__controls">
+                        <ul>
+                            <li class="active" data-filter="*">Tất cả</li>
+                            <li data-filter=".oranges">Quần</li>
+                            <li data-filter=".fresh-meat">Áo</li>
+                            <li data-filter=".vegetables">Giày</li>
+                            <li data-filter=".fastfood">Phụ Kiện</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                        <div class="featured__item">
+                            <div class="featured__item__pic">
+                                <img src="@Url.Content(product.ImageUrl)" class="product-image" />
+                                <ul class="featured__item__pic__hover">
+                                    <!-- Icon heart -->
+                                    <li><a href="#" class="like-product"><i class="bi bi-chat-heart-fill"></i> <span class="like-count">0</span></a></li>
+                                    <li><a href="#"><i class="bi bi-repeat"></i></a></li>
+                                    <!-- Icon cart -->
+                                    <li>
+                                        <a href="@Url.Action("AddToCart", "ShoppingCart", new { productId = product.Id })">
+                                            <i class="bi bi-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="featured__item__text">
+                                <h6><a href="#">@product.Name</a></h6>
+                                <h5>@product.Price</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                }
+            </div>
+        </div>
+    </section>
+    <!-- Featured Section End -->
+    <!-- Banner Begin -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+ 
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>TOP CÁC SẢN PHẨM ĐƯỢC ĐÁNH GIÁ TỐT NHẤT</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="~/images/ảnh8.jpg" />
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> </li>
+                                <li><i class="fa fa-comment-o"></i>Được sản Xuất từ 01/12/2002</li>
+                            </ul>
+
+                            <h5><a href="#">3000 lượt mua (2999 lượt đánh giá thích :))</a></h5>
+                            <p>Một chiếc Áo đến từ nhà Thái Công với giá khỏi điểm là 2000 Đô </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="~/images/vay.jpg" />
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                <li><i class="fa fa-comment-o"></i> 5</li>
+                            </ul>
+                            <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="~/images/ảnh15.jpg" />
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                <li><i class="fa fa-comment-o"></i> 5</li>
+                            </ul>
+                            <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+    
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        const slider = document.querySelector('.slider');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 3; // Tăng giảm tốc độ chuyển động
+            slider.scrollLeft = scrollLeft - walk;
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var likeIcons = document.querySelectorAll('.like-product');
+
+            likeIcons.forEach(function (icon) {
+                icon.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    console.log("Icon heart đã được nhấn");
+
+                    // Lấy số lần icon heart đã được nhấn từ localStorage
+                    var likeCount = localStorage.getItem('productLikeCount');
+                    console.log("Số lần icon heart đã được nhấn trước đó: " + likeCount);
+
+                    // Nếu không có, đặt giá trị mặc định là 0
+                    likeCount = likeCount ? parseInt(likeCount) : 0;
+
+                    // Tăng số lần đã nhấn lên 1
+                    likeCount++;
+                    console.log("Số lần đã nhấn sau khi tăng: " + likeCount);
+
+                    // Lưu lại số lần đã nhấn vào localStorage
+                    localStorage.setItem('productLikeCount', likeCount);
+
+                    // Hiển thị số lần đã nhấn lên icon
+                    var likeCountElement = icon.querySelector('.like-count');
+                    likeCountElement.textContent = likeCount;
+                    console.log("Số lần đã nhấn hiển thị trên icon: " + likeCount);
+                });
+            });
+        });
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

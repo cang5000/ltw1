@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\home\\find.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\home\\find.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\home\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\home\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|c:\\users\\admin\\downloads\\webbanquanao 3.0\\webbanquanao 1.0\\webbanquanao\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAuwF0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:54:21.644Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\appsettings.json",
+              "RelativeToolTip": "WebBanQuanAo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-17T07:43:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Home\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Index.cshtml.css",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Home\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-16T18:08:04.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:15:26.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T16:09:42.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:07:10.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Find.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Find.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Home\\Find.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Home\\Find.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Home\\Find.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:45:34.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:06:39.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebBanQuanAo\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-16T16:42:22.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebBanQuanAo 3.0\\WebBanQuanAo 1.0\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-16T16:42:43.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

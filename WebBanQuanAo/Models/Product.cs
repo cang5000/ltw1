@@ -10,10 +10,16 @@ namespace WebBanQuanAo.Models
         [Required, StringLength(100)]
         [DisplayName("Tên sản phẩm")]
         public string? Name { get; set; }
+<<<<<<< HEAD
 		[Range(1, 10000000)]
 		[DisplayName("Giá")]
 		public decimal Price { get; set; }
         
+=======
+        [Range(1, 10000)]
+        [DisplayName("Giá")]
+        public decimal Price { get; set; }
+>>>>>>> d1acac34d32653a8a4d3448f67628ee4c650203a
         [DisplayName("Mô tả")]
         public string? Description { get; set; }
         [DisplayName("Ảnh")]

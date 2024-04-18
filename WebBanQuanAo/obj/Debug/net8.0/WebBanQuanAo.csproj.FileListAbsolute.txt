@@ -1805,6 +1805,7 @@ D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\refint\WebBanQuanAo.dll
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.pdb
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.genruntimeconfig.cache
 D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\ref\WebBanQuanAo.dll
+<<<<<<< HEAD
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\bin\Debug\net8.0\appsettings.json
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\bin\Debug\net8.0\WebBanQuanAo.staticwebassets.runtime.json
@@ -2107,3 +2108,6 @@ C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\obj\Debug\net8.0\refint\Web
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.pdb
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\obj\Debug\net8.0\WebBanQuanAo.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Máy tính\ltw1\WebBanQuanAo\obj\Debug\net8.0\ref\WebBanQuanAo.dll
+=======
+D:\C#\ltw1\WebBanQuanAo\obj\Debug\net8.0\scopedcss\Views\ShoppingCart\Index.cshtml.rz.scp.css
+>>>>>>> d1acac34d32653a8a4d3448f67628ee4c650203a

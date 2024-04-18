@@ -1,0 +1,9 @@
+﻿
+.product-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease; /* (Tuỳ chọn) - Thêm hiệu ứng khi hover hoặc thay đổi kích thước */
+    
+}
+
